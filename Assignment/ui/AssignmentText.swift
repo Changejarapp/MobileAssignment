@@ -14,6 +14,7 @@ struct AssignmentText: View {
     var body: some View {
         Text(text)
             .font(.headline)
-            .foregroundColor(Color("#FFFFFF"))
+            .foregroundColor(Color.black)
+//            .border(Color.green)
     }
 }

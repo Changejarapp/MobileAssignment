@@ -13,6 +13,7 @@ struct DevicesList: View {
 
     var body: some View {
         List(devices) { device in
+            let _ = print(device)
             Button {
                 onSelect(device)
             } label: {

@@ -17,6 +17,7 @@
 		0C7ED3592D310121003DCAA1 /* DevicesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7ED3582D310121003DCAA1 /* DevicesList.swift */; };
 		0C7ED35D2D31014F003DCAA1 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7ED35C2D31014F003DCAA1 /* DetailView.swift */; };
 		0C7ED3612D314E15003DCAA1 /* AssignmentText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7ED3602D314E15003DCAA1 /* AssignmentText.swift */; };
+		6BC053552F1F58CC0079ABC1 /* Searchbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC053542F1F58CC0079ABC1 /* Searchbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0C7ED3582D310121003DCAA1 /* DevicesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesList.swift; sourceTree = "<group>"; };
 		0C7ED35C2D31014F003DCAA1 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		0C7ED3602D314E15003DCAA1 /* AssignmentText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentText.swift; sourceTree = "<group>"; };
+		6BC053542F1F58CC0079ABC1 /* Searchbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searchbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				0C7ED3582D310121003DCAA1 /* DevicesList.swift */,
 				0C7ED35C2D31014F003DCAA1 /* DetailView.swift */,
 				0C7ED3602D314E15003DCAA1 /* AssignmentText.swift */,
+				6BC053542F1F58CC0079ABC1 /* Searchbar.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				0C7ED3592D310121003DCAA1 /* DevicesList.swift in Sources */,
 				0C7ED35D2D31014F003DCAA1 /* DetailView.swift in Sources */,
 				0C7ED3542D30FBDA003DCAA1 /* ApiService.swift in Sources */,
+				6BC053552F1F58CC0079ABC1 /* Searchbar.swift in Sources */,
 				0C7ED3612D314E15003DCAA1 /* AssignmentText.swift in Sources */,
 				0C7ED3572D30FDB4003DCAA1 /* DeviceData.swift in Sources */,
 				0C7ED3512D30FBA9003DCAA1 /* ContentViewModel.swift in Sources */,
@@ -326,7 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Assignment/Preview Content\"";
-				DEVELOPMENT_TEAM = T62G5GKL38;
+				DEVELOPMENT_TEAM = K2LS6S3ZTR;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -364,7 +368,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Assignment/Preview Content\"";
-				DEVELOPMENT_TEAM = T62G5GKL38;
+				DEVELOPMENT_TEAM = K2LS6S3ZTR;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

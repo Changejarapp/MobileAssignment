@@ -22,14 +22,34 @@ struct DetailView: View {
                         .font(.title2)
                         .padding(.top, 8)
                 }
+                if data.price == nil {
+                    Text("Price: $not found")
+                        .font(.title2)
+                        .padding(.top, 8)
+                }
                 if let screenSize = data.screenSize {
                     Text("Screen Size: \(screenSize)\"")
+                }
+                if data.screenSize == nil {
+                    Text("screenSize: not found")
+                        .font(.title2)
+                        .padding(.top, 8)
                 }
                 if let capacity = data.capacity {
                     Text("Capacity: \(capacity)")
                 }
+                if data.capacity == nil {
+                    Text("Capacity: not found")
+                        .font(.title2)
+                        .padding(.top, 8)
+                }
                 if let description = data.description {
                     Text("Description: \(description)")
+                        .padding(.top, 8)
+                }
+                if data.description == nil {
+                    Text("description: not found")
+                        .font(.title2)
                         .padding(.top, 8)
                 }
             }
