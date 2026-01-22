@@ -8,19 +8,28 @@
 import Foundation
 
 
-class ContentViewModel : ObservableObject {
+class ContentViewModel {
     
     private let apiService = ApiService()
-    @Published var navigateDetail: DeviceData? = nil
-    var data: [DeviceData]? = []
+//    @Published var navigateDetail: DeviceData? = nil
+//    var data: [DeviceData]? = []
+    private var devices: [DeviceData] = []
 
-    func fetchAPI() {
-        apiService.fetchDeviceDetails(completion: { item in
-            self.data = item
-        })
-    }
     
-    func navigateToDetail(navigateDetail: DeviceData) {
-        self.navigateDetail = navigateDetail
+    func fetchDevices(completion:@escaping ([DeviceData]) -> Void){
+        apiService.fetchDeviceDetails{ result in
+            switch result {
+            case.success(let devices):
+                completion(devices)
+            case .failure(let error):
+                print("error",error.localizedDescription)
+                completion([])
+            }
+        }
+        }
     }
-}
+
+//    func navigateToDetail(navigateDetail: DeviceData) {
+//        self.navigateDetail = navigateDetail
+//    }
+
